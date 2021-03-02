@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 40px;
+}
+#logo {
+  width: 100px;
+}
+.item {
+  margin: 20px;
+  color: #c1bdbc;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+.item:hover {
+  color: black;
+  cursor: pointer;
+  border-bottom: 4px solid #5343c0;
+}
+#account-btn {
+  background-color: #fdd8db;
+  color: #5647c1;
+  border: none;
+  outline: none;
+  padding: 20px 30px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+#account-btn:hover {
+  cursor: pointer;
+}
+#main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#left h1 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 15px;
+}
+#square {
+  color: #5243c1;
+}
+#left p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: gray;
+}
+#arrows {
+  display: flex;
+  margin-top: 20px;
+}
+#arrows img {
+  margin: 5px 10px;
+  height: 40px;
+  width: 40px;
+}
+#arrows button {
+  background-color: #5647c1;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#users {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  margin: 5px;
+}
+.user-tick {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.user-img {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+#user-pink {
+  outline: none;
+  border: none;
+  background-color: #fdd8db;
+  height: 12px;
+  width: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+#user-orange {
+  outline: none;
+  border: none;
+  background-color: #f96534;
+  height: 12px;
+  width: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+#user-blue {
+  outline: none;
+  border: none;
+  background-color: #9fd197;
+  height: 12px;
+  width: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+#user-red {
+  outline: none;
+  border: none;
+  background-color: #fee59f;
+  height: 12px;
+  width: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+#stunning-img {
+  height: 90vh;
+}
+#white-bg {
+  background-color: white;
+}
